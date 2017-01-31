@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_Relational_Backend.Abstraction.DAL", "FW_Relational_Backend.Abstraction.DAL\FW_Relational_Backend.Abstraction.DAL.csproj", "{BE73A95D-B2BC-44E9-A64F-9E59E0796BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_Relational_Backend.DAL", "FW_Relational_Backend.DAL\FW_Relational_Backend.DAL.csproj", "{EEA73B66-7D45-4D78-9548-DA8C333D51E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_Relational_Backend.DAL.Tests", "FW_Relational_Backend.DAL.Tests\FW_Relational_Backend.DAL.Tests.csproj", "{0EB690A7-8ADD-419B-805D-A4C01EB7B1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_Relational_Backend.DTL", "FW_Relational_Backend.DTL\FW_Relational_Backend.DTL.csproj", "{6A5DB95F-E1FD-474C-91CE-BB0072C1EF36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_Relational_Backend.Abstraction.DTL", "FW_Relational_Backend.Abstraction.DTL\FW_Relational_Backend.Abstraction.DTL.csproj", "{236E4E7C-6B39-442B-8E99-839B234916CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_Relational_Backend.Abstraction.BLL", "FW_Relational_Backend.Abstraction.BLL\FW_Relational_Backend.Abstraction.BLL.csproj", "{47318CE9-4510-47B1-9012-3A57D4922014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_Relational_Backend.BLL", "FW_Relational_Backend.BLL\FW_Relational_Backend.BLL.csproj", "{BC3FF113-26EF-48AC-B3F1-8C1EEC2BD9A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_Relational_Backend.Abstraction.Services", "FW_Relational_Backend.Abstraction.Services\FW_Relational_Backend.Abstraction.Services.csproj", "{26211169-1ABF-4F53-A2AE-69E73A1DBCAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_Relational_Backend.Services", "FW_Relational_Backend.Services\FW_Relational_Backend.Services.csproj", "{FEDF44AD-94A4-4DFB-BFF6-0DFCA9297816}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstraction", "Abstraction", "{2B336BD2-CA9A-4CA0-9DFA-CF01D720BB38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE73A95D-B2BC-44E9-A64F-9E59E0796BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE73A95D-B2BC-44E9-A64F-9E59E0796BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE73A95D-B2BC-44E9-A64F-9E59E0796BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE73A95D-B2BC-44E9-A64F-9E59E0796BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA73B66-7D45-4D78-9548-DA8C333D51E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA73B66-7D45-4D78-9548-DA8C333D51E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA73B66-7D45-4D78-9548-DA8C333D51E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA73B66-7D45-4D78-9548-DA8C333D51E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB690A7-8ADD-419B-805D-A4C01EB7B1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB690A7-8ADD-419B-805D-A4C01EB7B1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB690A7-8ADD-419B-805D-A4C01EB7B1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB690A7-8ADD-419B-805D-A4C01EB7B1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5DB95F-E1FD-474C-91CE-BB0072C1EF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5DB95F-E1FD-474C-91CE-BB0072C1EF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5DB95F-E1FD-474C-91CE-BB0072C1EF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5DB95F-E1FD-474C-91CE-BB0072C1EF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236E4E7C-6B39-442B-8E99-839B234916CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236E4E7C-6B39-442B-8E99-839B234916CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236E4E7C-6B39-442B-8E99-839B234916CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236E4E7C-6B39-442B-8E99-839B234916CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47318CE9-4510-47B1-9012-3A57D4922014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47318CE9-4510-47B1-9012-3A57D4922014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47318CE9-4510-47B1-9012-3A57D4922014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47318CE9-4510-47B1-9012-3A57D4922014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3FF113-26EF-48AC-B3F1-8C1EEC2BD9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3FF113-26EF-48AC-B3F1-8C1EEC2BD9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3FF113-26EF-48AC-B3F1-8C1EEC2BD9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3FF113-26EF-48AC-B3F1-8C1EEC2BD9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26211169-1ABF-4F53-A2AE-69E73A1DBCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26211169-1ABF-4F53-A2AE-69E73A1DBCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26211169-1ABF-4F53-A2AE-69E73A1DBCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26211169-1ABF-4F53-A2AE-69E73A1DBCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDF44AD-94A4-4DFB-BFF6-0DFCA9297816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDF44AD-94A4-4DFB-BFF6-0DFCA9297816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDF44AD-94A4-4DFB-BFF6-0DFCA9297816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDF44AD-94A4-4DFB-BFF6-0DFCA9297816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE73A95D-B2BC-44E9-A64F-9E59E0796BB5} = {2B336BD2-CA9A-4CA0-9DFA-CF01D720BB38}
+		{236E4E7C-6B39-442B-8E99-839B234916CD} = {2B336BD2-CA9A-4CA0-9DFA-CF01D720BB38}
+		{47318CE9-4510-47B1-9012-3A57D4922014} = {2B336BD2-CA9A-4CA0-9DFA-CF01D720BB38}
+		{26211169-1ABF-4F53-A2AE-69E73A1DBCAA} = {2B336BD2-CA9A-4CA0-9DFA-CF01D720BB38}
+	EndGlobalSection
+EndGlobal
